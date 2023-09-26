@@ -1,294 +1,783 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>East End Company Limited</title>
+    <link rel="icon" href="images/logo-black.jpg" type="image/png" />
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>East End Company Limited</title>
-  <link rel="icon" href="images/logo-black.jpg" type="image/png">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+    <!-- Font Google -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css" />  
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <!-- Font Google -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img src="images/Eastend.png" alt="logo"
-          class="logo-1"> </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
-          class="fas fa-bars"></span> </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0">Home</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">About</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Services</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Clients</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">Features</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="5">Prices</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="6">Faq</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="7">Contact</a> </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- End Navbar -->
-  <!-------Banner Start------->
-  <section class="banner" data-scroll-index='0'>
-    <div class="banner-overlay">
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-12">
-            <div class="banner-text">
-              <h2 class="white">Best Network selling Company</h2>
-              <h6 class="white">This awesome service is offered by <a href="http://eastendsolutions.co.tz"
-                  target="_blank" rel="dofollow" class="weblink">East End Solutions</a>.</h6>
-              <p class="banner-text white">Your Premier Partner for Internet Installation and Cutting-Edge Fleet
-                Management</p>
-              <ul>
-                <!-- <li><a href="#"><img src="images/appstore.png" class="wow fadeInUp" data-wow-delay="0.4s"/></a></li> -->
-                <li><a href="https://wa.me/255624177653"><img src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s" /></a></li>
-              </ul>
+        <a class="navbar-brand navbar-logo" href="#">
+          <img src="images/Eastend.png" alt="logo" class="logo-1" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="fas fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="" data-scroll-nav="0">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="1">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="2">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="3">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="4">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="5">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="6">Faq</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="7">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-------Banner Start------->
+    <section class="banner" data-scroll-index="0">
+      <div class="banner-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-12">
+              <div class="banner-text">
+                <h2 class="white">Best Network selling Company</h2>
+                <h6 class="white">
+                  This awesome service is offered by
+                  <a
+                    href="http://eastendsolutions.co.tz"
+                    target="_blank"
+                    rel="dofollow"
+                    class="weblink"
+                    >East End Solutions</a
+                  >.
+                </h6>
+                <p class="banner-text white">
+                  Your Premier Partner for Internet Installation and
+                  Cutting-Edge Fleet Management
+                </p>
+                <ul>
+                  <!-- <li><a href="#"><img src="images/appstore.png" class="wow fadeInUp" data-wow-delay="0.4s"/></a></li> -->
+                  <li>
+                    <a href="https://wa.me/255624177653"
+                      ><img
+                        src="images/playstore.png"
+                        class="wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <img src="images/wifiimage.png" class="img-fluid wow fadeInUp" />
             </div>
           </div>
-          <div class="col-md-4 col-sm-12"> <img src="images/wifiimage.png" class="img-fluid wow fadeInUp" /> </div>
         </div>
       </div>
-    </div>
-    <span class="svg-wave"> <img class="svg-hero" src="images/applight-wave.svg"> </span>
-  </section>
+      <span class="svg-wave">
+        <img class="svg-hero" src="images/applight-wave.svg" />
+      </span>
+    </section>
 
-  <!-------Banner End------->
+    <!-------Banner End------->
 
-  <!-------About End------->
+    <!-------About End------->
 
-  <section class="about section-padding prelative" data-scroll-index='1'>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="sectioner-header text-center">
-            <h3>About</h3>
-            <span class="line"></span>
-            <p>At East End Solutions, we're your one-stop destination for all things internet installation and fleet
-              management. Whether you're a homeowner in need of lightning-fast internet or a business owner looking to
-              optimize your fleet's performance, we've got you covered. With years of experience and a commitment to
-              innovation, we bring you the best in technology solutions..</p>
+    <section class="about section-padding prelative" data-scroll-index="1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="sectioner-header text-center">
+              <h3>About</h3>
+              <span class="line"></span>
+              <p>
+                At East End Solutions, we're your one-stop destination for all
+                things internet installation and fleet management. Whether
+                you're a homeowner in need of lightning-fast internet or a
+                business owner looking to optimize your fleet's performance,
+                we've got you covered. With years of experience and a commitment
+                to innovation, we bring you the best in technology solutions.
+              </p>
+            </div>
           </div>
-          
         </div>
       </div>
-    </div>
-  </section>
-  <!-------About End------->
+    </section>
+    <!-------About End------->
 
-   <!-------About End------->
+    <!-------About End------->
 
-   <section class="about section-padding prelative" data-scroll-index='2'>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="sectioner-header text-center">
-            <h3>services</h3>
-            <span class="line"></span>
-            <p>
-              In this section, you'll find detailed information about the various services we offer, each designed with your convenience and success in mind. We invite you to explore our offerings, discover the benefits they bring, and consider how we can help you achieve your goals. Thank you for choosing East End Solutions Limited for your service needs.
-            </p>
-            
-          </div>
-          <div class="section-content text-center">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> <i class="fa fa-wifi" aria-hidden="true"></i>
-                  <h5>High-Speed Internet Installation</h5>
-                  <p>Experience the power of connectivity like never before. Our team of experts specializes in
-                    providing high-speed internet solutions tailored to your needs. Whether you're working from home,
-                    streaming your favorite shows, or running a business, our internet installation services ensure
-                    you're always connected, without interruptions.</p>
+    <section class="about section-padding prelative" data-scroll-index="2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="sectioner-header text-center">
+              <h3>services</h3>
+              <span class="line"></span>
+              <p>
+                In this section, you'll find detailed information about the
+                various services we offer, each designed with your convenience
+                and success in mind. We invite you to explore our offerings,
+                discover the benefits they bring, and consider how we can help
+                you achieve your goals. Thank you for choosing East End
+                Solutions Limited for your service needs.
+              </p>
+            </div>
+            <div class="section-content text-center">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+                    <i class="fa fa-wifi" aria-hidden="true"></i>
+                    <h5>High-Speed Internet Installation</h5>
+                    <p>
+                      Experience the power of connectivity like never before.
+                      Our team of experts specializes in providing high-speed
+                      internet solutions tailored to your needs. Whether you're
+                      working from home, streaming your favorite shows, or
+                      running a business, our internet installation services
+                      ensure you're always connected, without interruptions.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+                    <i class="fa fa-car" aria-hidden="true"></i>
+                    <h5>Car Tracking and Fleet Management</h5>
+                    <p>
+                      Efficient fleet management is essential for businesses of
+                      all sizes. Our advanced car tracking and fleet management
+                      systems offer real-time insights into your vehicles'
+                      whereabouts and performance. Maximize productivity, reduce
+                      operating costs, and enhance safety with our cutting-edge
+                      solutions.
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"> <i class="fa fa-car" aria-hidden="true"></i>
-                  <h5>Car Tracking and Fleet Management</h5>
-                  <p>Efficient fleet management is essential for businesses of all sizes. Our advanced car tracking and
-                    fleet management systems offer real-time insights into your vehicles' whereabouts and performance.
-                    Maximize productivity, reduce operating costs, and enhance safety with our cutting-edge solutions.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------About End------->
+
+    <!-------Testimonial Start------->
+    <section class="testimonial section-padding" data-scroll-index="3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="sectioner-header text-center white">
+              <h3>Clients</h3>
+              <span class="line"></span>
+              <p class="white">
+                Here you'll find valuable insights into the clients we have had
+                the privilege to serve. We believe in building lasting
+                partnerships, and our success is measured by your success. We
+                invite you to explore the stories and experiences of our
+                clients, showcasing the value we bring to their lives and
+                businesses.
+              </p>
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="lc-block">
+                    <div
+                      id="carouselLogos"
+                      class="carousel slide pt-5 pb-4"
+                      data-bs-ride="carousel"
+                      data-bs-interval="3000"
+                    >
+                      <div class="carousel-inner px-5">
+                        <div class="carousel-item active">
+                          <div class="row">
+                            <div class="col-6 col-lg-2 align-self-center">
+                              <img
+                                class="d-block w-100 px-3 mb-3"
+                                src="images/frankknows.png"
+                                alt=""
+                              />
+                            </div>
+                            <div class="col-6 col-lg-2 align-self-center">
+                              <img
+                                class="d-block w-100 px-3 mb-3"
+                                src="images/amoki.jpg"
+                                alt=""
+                              />
+                            </div>
+                            <div class="col-6 col-lg-2 align-self-center">
+                              <img
+                                class="d-block w-100 px-3 mb-3"
+                                src="images/emori01.jpg"
+                                alt=""
+                              />
+                            </div>
+                            <div class="col-6 col-lg-2 align-self-center">
+                              <img
+                                class="d-block w-100 px-3 mb-3"
+                                src="images/ktml traders02.jpg"
+                                alt=""
+                              />
+                            </div>
+                            <div class="col-6 col-lg-2 align-self-center">
+                              <img
+                                class="d-block w-100 px-3 mb-3"
+                                src="images/download.png"
+                                alt=""
+                              />
+                            </div>
+                            <div class="col-6 col-lg-2 align-self-center">
+                              <img
+                                class="d-block w-100 px-3 mb-3"
+                                src="images/strong hold.jpeg"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /lc-block -->
+                </div>
+                <!-- /col -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------Features Start------->
+    <section class="feature section-padding" data-scroll-index="4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="sectioner-header text-center">
+              <h3>Features</h3>
+              <span class="line"></span>
+              <p>Why Choose East End Solutions?</p>
+            </div>
+            <div class="section-content text-center">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div
+                    class="media single-feature wow fadeInUp"
+                    data-wow-delay="0.2s"
+                  >
+                    <div class="media-body text-right media-right-margin">
+                      <h5>Unmatched Expertise</h5>
+                      <p>
+                        Our team consists of industry experts who understand the
+                        intricacies of both internet installation and fleet
+                        management. We stay up-to-date with the latest
+                        technologies to provide you with the best solutions.
+                      </p>
+                    </div>
+                    <div class="media-right icon-border">
+                      <span class="fa fa-bolt" aria-hidden="true"></span>
+                    </div>
+                  </div>
+                  <div
+                    class="media single-feature wow fadeInUp"
+                    data-wow-delay="0.4s"
+                  >
+                    <div class="media-body text-right media-right-margin">
+                      <h5>Customized Solutions</h5>
+                      <p>
+                        No two clients are the same, and we recognize that. Our
+                        solutions are tailored to your unique requirements,
+                        ensuring you get precisely what you need to succeed.
+                      </p>
+                    </div>
+                    <div class="media-right icon-border">
+                      <span
+                        class="fa fa-battery-full"
+                        aria-hidden="true"
+                      ></span>
+                    </div>
+                  </div>
+                  <div
+                    class="media single-feature wow fadeInUp"
+                    data-wow-delay="0.6s"
+                  >
+                    <div class="media-body text-right media-right-margin">
+                      <h5>Reliability and Support</h5>
+                      <p>
+                        We pride ourselves on the reliability of our services
+                        and our commitment to customer support. We're here for
+                        you whenever you need assistance, ensuring that your
+                        technology investments run smoothly.
+                      </p>
+                    </div>
+                    <div class="media-right icon-border">
+                      <span class="fa fa-wifi" aria-hidden="true"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 d-none d-md-block d-lg-block">
+                  <div class="feature-mobile">
+                    <img
+                      src="images/iphone-screen-with-shadow.png"
+                      class="img-fluid wow fadeInUp"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div
+                    class="media single-feature wow fadeInUp"
+                    data-wow-delay="0.2s"
+                  >
+                    <div class="media-left icon-border media-right-margin">
+                      <span
+                        class="fa fa-check-double"
+                        aria-hidden="true"
+                      ></span>
+                    </div>
+                    <div class="media-body text-left">
+                      <h5>Cutting-Edge Technology</h5>
+                      <p>
+                        We invest in the latest technology and systems to keep
+                        you ahead of the curve. Our solutions are designed to
+                        empower your home or business with state-of-the-art
+                        capabilities.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="media single-feature wow fadeInUp"
+                    data-wow-delay="0.4s"
+                  >
+                    <div class="media-left icon-border media-right-margin">
+                      <span class="fa fa-dollar-sign" aria-hidden="true"></span>
+                    </div>
+                    <div class="media-body text-left">
+                      <h5>Competitive Pricing</h5>
+                      <p>
+                        We believe that quality shouldn't break the bank. Our
+                        competitive pricing ensures that you get top-notch
+                        services without compromising your budget.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="media single-feature wow fadeInUp"
+                    data-wow-delay="0.6s"
+                  >
+                    <div class="media-left icon-border media-right-margin">
+                      <span class="fa fa-hdd" aria-hidden="true"></span>
+                    </div>
+                    <div class="media-body text-left">
+                      <h5>Unlimited Bundle</h5>
+                      <p>
+                        Enjoy limitless, unrestricted data usage with no caps or
+                        worries. Experience total freedom and endless
+                        possibilities for seamless, uninterrupted connectivity.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------Features End------->
+
+    <!-------Testimonial Start------->
+    <section class="testimonial section-padding" data-scroll-index="5">
+      <div class="container">
+        <div class="row justify-content-center gapsectionsecond">
+          <div class="col-lg-7 text-center">
+            <div class="sectioner-header text-center white">
+              <h3>SERVICE PRICES</h3>
+
+              <span class="line"></span>
+              <p class="white">
+                We understand that pricing transparency is essential for making
+                informed decisions, and that's why we're committed to providing
+                you with a clear and comprehensive overview of our service
+                pricing. <br /><br /><strong
+                  class="text-uppercase"
+                  id="text-uppercase"
+                  >Installation Cost is 299,000/=</strong
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-lg-4 pb-5 pb-lg-0">
+            <div class="wrap-price center-wrap">
+              <div class="price-innerdetail text-center">
+                <h5>BASIC</h5>
+                <p class="prices">99,000/=</p>
+                <div class="detail-pricing">
+                  <span class="float-left">
+                    <i class="bi bi-check2-circle"></i> Speed
+                  </span>
+                  <span class="float-right">10mbps</span>
+                </div>
+                <div class="detail-pricing">
+                  <span class="float-left">
+                    <i class="bi bi-check2-circle"></i> Bundle</span
+                  >
+                  <span class="float-right">Unlimited</span>
+                </div>
+                <div class="detail-pricing">
+                  <span class="float-left">
+                    <i class="bi bi-check2-circle"></i>No of Devices
+                  </span>
+                  <span class="float-right">Unlimited</span>
+                </div>
+                <a class="btn btn-secondary mt-5">Subscribe</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 pb-5 pb-lg-0">
+            <div class="wrap-price center-wrap">
+              <div class="price-innerdetail text-center">
+                <h5>STANDARD</h5>
+                <p class="prices">120,000/=</p>
+                <div class="detail-pricing">
+                  <span class="float-left">
+                    <i class="bi bi-check2-circle"></i> Speed
+                  </span>
+                  <span class="float-right">15mbps</span>
+                </div>
+                <div class="detail-pricing">
+                  <span class="float-left">
+                    <i class="bi bi-check2-circle"></i> Bundle</span
+                  >
+                  <span class="float-right">Unlimited</span>
+                </div>
+                <div class="detail-pricing">
+                  <span class="float-left">
+                    <i class="bi bi-check2-circle"></i>No of Devices
+                  </span>
+                  <span class="float-right">Unlimited</span>
+                </div>
+                <a class="btn btn-secondary mt-5">Subscribe</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 pb-5 pb-lg-0">
+            <div class="wrap-price center-wrap">
+              <div class="price-innerdetail text-center">
+                <h5>PREMIUM</h5>
+                <p class="prices">150,000/=</p>
+                <div class="detail-pricing">
+                  <span class="float-left">
+                    <i class="bi bi-check2-circle"></i> Speed
+                  </span>
+                  <span class="float-right">20mbps</span>
+                </div>
+                <div class="detail-pricing">
+                  <span class="float-left">
+                    <i class="bi bi-check2-circle"></i> Bundle</span
+                  >
+                  <span class="float-right">Unlimited</span>
+                </div>
+                <div class="detail-pricing">
+                  <span class="float-left">
+                    <i class="bi bi-check2-circle"></i>No of Devices
+                  </span>
+                  <span class="float-right">Unlimited</span>
+                </div>
+                <a class="btn btn-secondary mt-5">Subscribe</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------Testimonial End------->
+
+    <!-------FAQ Start------->
+    <section class="faq section-padding prelative" data-scroll-index="6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="sectioner-header text-center">
+              <h3>Frequently Asked Questions</h3>
+              <span class="line"></span>
+              <p>
+                We understand that you may have questions about our products and
+                services, and we're here to provide you with clear and
+                informative answers
+              </p>
+            </div>
+            <div class="section-content">
+              <div class="row">
+                <div
+                  class="col-md-6 faq-content wow fadeInUp"
+                  data-wow-delay="0.2s"
+                >
+                  <h4>
+                    What equipment will I need for the internet installation,
+                    and is it provided by your company?
+                  </h4>
+                  <p>
+                    The equipment required for your internet installation
+                    depends on the type of service you choose. In most cases, we
+                    provide antenna, routers and any necessary installation
+                    hardware i.e Wi-Fi equipment for in-home/office wireless
+                    connectivity.
+                  </p>
+                </div>
+                <div
+                  class="col-md-6 faq-content wow fadeInUp"
+                  data-wow-delay="0.2s"
+                >
+                  <h4>
+                    How accurate is your vehicle tracking system, and how
+                    frequently is the data updated?
+                  </h4>
+                  <p>
+                    Our vehicle tracking system is highly accurate and provides
+                    real-time data updates. It utilizes advanced GPS technology
+                    to track the location of your vehicle with precision. The
+                    data is typically updated at short intervals, such as every
+                    30 seconds or less, ensuring you have the most up-to-date
+                    information available.
+                  </p>
+                </div>
+                <div
+                  class="col-md-6 faq-content wow fadeInUp"
+                  data-wow-delay="0.4s"
+                >
+                  <h4>
+                    How long does it usually take from when I request internet
+                    service?
+                  </h4>
+                  <p>
+                    The time it takes to set up your internet service can vary
+                    depending on several factors, including your location, the
+                    type of service you're requesting. The overall timeline can
+                    vary, but we strive to make the process as efficient as
+                    possible to get you connected to the internet quickly.
+                  </p>
+                </div>
+                <div
+                  class="col-md-6 faq-content wow fadeInUp"
+                  data-wow-delay="0.4s"
+                >
+                  <h4>
+                    Is the vehicle tracking system compatible with all types of
+                    vehicles, including personal cars and commercial fleets?
+                  </h4>
+                  <p>
+                    Yes, our vehicle tracking system is designed to be versatile
+                    and can be used with a wide range of vehicles, including
+                    personal cars, trucks, vans, and commercial fleets. It is
+                    scalable and can accommodate the tracking needs of both
+                    individuals and businesses.
+                  </p>
+                </div>
+                <div
+                  class="col-md-6 faq-content wow fadeInUp"
+                  data-wow-delay="0.6s"
+                >
+                  <h4>
+                    What support options are available if I encounter technical
+                    issues with my internet service ?
+                  </h4>
+                  <p>
+                    We offer multiple support channels, including phone support,
+                    live chat, and email. Additionally, you can find helpful
+                    troubleshooting resources in our "Support" or "FAQ" sections
+                    on the website.
+                  </p>
+                </div>
+                <div
+                  class="col-md-6 faq-content wow fadeInUp"
+                  data-wow-delay="0.6s"
+                >
+                  <h4>
+                    How does your car tracking system work, and what are its
+                    benefits?
+                  </h4>
+                  <p>
+                    Our car tracking system utilizes advanced technology to
+                    provide real-time location tracking and security features
+                    for your vehicle. Benefits include theft prevention,
+                    improved vehicle safety, and potential cost savings on
+                    insurance premiums.
                   </p>
                 </div>
               </div>
-            
-          
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-------About End------->
+    </section>
 
-  <!-------Testimonial Start------->
-  <section class="testimonial section-padding" data-scroll-index='3'>
-    <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="sectioner-header text-center white">
-          <h3>Clients</h3>
-          <span class="line"></span>
-          <p class="white">Here you'll find valuable insights into the clients we have had the privilege to serve. We believe in building lasting partnerships, and our success is measured by your success. We invite you to explore the stories and experiences of our clients, showcasing the value we bring to their lives and businesses.</p>
-        </div>
-    
-       
-  
-    <div class="container">
-      <div class="row">
+    <!-------FAQ End------->
+
+    <!-------Contact Start------->
+    <section class="contact section-padding" data-scroll-index="7">
+      <div class="container">
+        <div class="row">
           <div class="col-md-12">
-              <div class="lc-block">
-                <div id="carouselLogos" class="carousel slide pt-5 pb-4" data-bs-ride="carousel" data-bs-interval="3000"> 
-
-                  
-                      <div class="carousel-inner px-5">
-                          <div class="carousel-item active">
-                              <div class="row">
-                                  <div class="col-6 col-lg-2 align-self-center">
-                                      <img class="d-block w-100 px-3 mb-3" src="images/frankknows.png" alt="">
-                                  </div>
-                                  <div class="col-6 col-lg-2  align-self-center">
-                                      <img class="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/2.png" alt="">
-                                  </div>
-                                  <div class="col-6 col-lg-2  align-self-center">
-                                      <img class="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/3.png" alt="">
-                                  </div>
-                                  <div class="col-6 col-lg-2  align-self-center">
-                                      <img class="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/12.png" alt="">
-                                  </div>
-                                  <div class="col-6 col-lg-2  align-self-center">
-                                      <img class="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/5.png" alt="">
-                                  </div>
-                                  <div class="col-6 col-lg-2  align-self-center">
-                                      <img class="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/6.png" alt="">
-                                  </div>
-                              </div>
-  
-                          </div>
-                          <div class="carousel-item">
-                              <div class="row">
-                                  <div class="col-6 col-lg-2 align-self-center">
-                                      <img class="d-block w-100 px-3 mb-3" src="https://cdn.livecanvas.com/media/logos/11.png" alt="">
-                                  </div>
-                                  <div class="col-6 col-lg-2  align-self-center">
-                                      <img class="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/2.png" alt="">
-                                  </div>
-                                  <div class="col-6 col-lg-2  align-self-center">
-                                      <img class="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/3.png" alt="">
-                                  </div>
-                                  <div class="col-6 col-lg-2  align-self-center">
-                                      <img class="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/12.png" alt="">
-                                  </div>
-                                  <div class="col-6 col-lg-2  align-self-center">
-                                      <img class="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/5.png" alt="">
-                                  </div>
-                                  <div class="col-6 col-lg-2  align-self-center">
-                                      <img class="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/6.png" alt="">
-                                  </div>
-                              </div>
-  
-                          </div>
-  
+            <div class="sectioner-header text-center">
+              <h3>Contact us</h3>
+              <span class="line"></span>
+              <p>
+                Please explore the various ways to get in touch with us listed
+                on this page. We look forward to hearing from you and assisting
+                you in any way we can. Thank you for choosing East End Solutions
+                Limited
+              </p>
+            </div>
+            <div class="section-content">
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-8">
+                  <form id="contact_form" action="send_email.php" method="POST">
+                    <div class="row">
+                      <div class="col">
+                        <input
+                          type="text"
+                          id="your_name"
+                          class="form-input w-100"
+                          name="name"
+                          placeholder="Full Name"
+                          required
+                        />
                       </div>
-  
-                  </div>
-              </div><!-- /lc-block -->
-          </div><!-- /col -->
-      </div>
-  </div>
-   
-   
-    
-      </div>
-    </div>
-  </div>
-  </section>
+                      <div class="col">
+                        <input
+                          type="email"
+                          id="email"
+                          class="form-input w-100"
+                          name="email"
+                          placeholder="Email"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <input
+                      type="text"
+                      id="subject"
+                      class="form-input w-100"
+                      name="subject"
+                      placeholder="Subject"
+                    />
+                    <textarea
+                      class="form-input w-100"
+                      id="message"
+                      placeholder="Message"
+                      name="message"
+                    ></textarea>
+                    <button
+                      class="btn-grad w-100 text-uppercase"
+                      type="submit"
+                      name="button"
+                    >
+                      submit
+                    </button>
+                  </form>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                  <div class="contact-info white">
+                    <div class="contact-item media">
+                      <i
+                        class="fa fa-map-marker-alt media-left media-right-margin"
+                      ></i>
+                      <div class="media-body">
+                        <p class="text-uppercase">Address</p>
 
-
-
-  <!-------Features Start------->
-  <section class="feature section-padding" data-scroll-index='4'>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="sectioner-header text-center">
-            <h3>Features</h3>
-            <span class="line"></span>
-            <p>Why Choose East End Solutions?</p>
-          </div>
-          <div class="section-content text-center">
-            <div class="row">
-              <div class="col-md-4 col-sm-12">
-                <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
-                  <div class="media-body text-right media-right-margin">
-                    <h5>Unmatched Expertise</h5>
-                    <p>Our team consists of industry experts who understand the intricacies of both internet
-                      installation and fleet management. We stay up-to-date with the latest technologies to provide you
-                      with the best solutions.</p>
-                  </div>
-                  <div class="media-right icon-border"> <span class="fa fa-bolt" aria-hidden="true"></span> </div>
-                </div>
-                <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
-                  <div class="media-body text-right media-right-margin">
-                    <h5>Customized Solutions</h5>
-                    <p>No two clients are the same, and we recognize that. Our solutions are tailored to your unique
-                      requirements, ensuring you get precisely what you need to succeed.</p>
-                  </div>
-                  <div class="media-right icon-border"> <span class="fa fa-battery-full" aria-hidden="true"></span>
-                  </div>
-                </div>
-                <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
-                  <div class="media-body text-right media-right-margin">
-                    <h5>Reliability and Support</h5>
-                    <p>We pride ourselves on the reliability of our services and our commitment to customer support.
-                      We're here for you whenever you need assistance, ensuring that your technology investments run
-                      smoothly.</p>
-                  </div>
-                  <div class="media-right icon-border"> <span class="fa fa-wifi" aria-hidden="true"></span> </div>
-                </div>
-              </div>
-              <div class="col-md-4 d-none d-md-block d-lg-block">
-                <div class="feature-mobile"> <img src="images/iphone-screen-with-shadow.png"
-                    class="img-fluid wow fadeInUp" /> </div>
-              </div>
-              <div class="col-md-4 col-sm-12">
-                <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
-                  <div class="media-left icon-border media-right-margin"> <span class="fa fa-check-double"
-                      aria-hidden="true"></span> </div>
-                  <div class="media-body text-left">
-                    <h5>Cutting-Edge Technology</h5>
-                    <p>We invest in the latest technology and systems to keep you ahead of the curve. Our solutions are
-                      designed to empower your home or business with state-of-the-art capabilities.</p>
-                  </div>
-                </div>
-                <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
-                  <div class="media-left icon-border media-right-margin"> <span class="fa fa-dollar-sign"
-                      aria-hidden="true"></span> </div>
-                  <div class="media-body text-left">
-                    <h5>Competitive Pricing</h5>
-                    <p>We believe that quality shouldn't break the bank. Our competitive pricing ensures that you get
-                      top-notch services without compromising your budget.</p>
-                  </div>
-                </div>
-                <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
-                  <div class="media-left icon-border media-right-margin"> <span class="fa fa-hdd"
-                      aria-hidden="true"></span> </div>
-                  <div class="media-body text-left">
-                    <h5>Unlimited Storage</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut
-                      labore</p>
+                        <p class="text-uppercase tex">
+                          <a
+                            class="text-white"
+                            href="https://maps.app.goo.gl/sLehRSbWYBkM9dNT7"
+                            >Ikigai Complex, Goba</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="contact-item media">
+                      <i class="fa fa-mobile media-left media-right-margin"></i>
+                      <div class="media-body">
+                        <p class="text-uppercase">Phone</p>
+                        <p class="text-uppercase">
+                          <a class="text-white" href="tel:+255624177653"
+                            >+255 624 177 653</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="contact-item media">
+                      <i
+                        class="fa fa-envelope media-left media-right-margin"
+                      ></i>
+                      <div class="media-body">
+                        <p class="text-uppercase">E-mail</p>
+                        <p class="text-lowercase">
+                          <a
+                            class="text-white"
+                            href="mailto:eularianluke.el@gmail.com"
+                            >eastendsolution@gmail.com</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="contact-item media">
+                      <i class="fa fa-clock media-left media-right-margin"></i>
+                      <div class="media-body">
+                        <p class="text-uppercase">Working Hours</p>
+                        <p class="text-uppercase">Mon-Sa 9.00 AM to 5.00PM.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -296,356 +785,153 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-------Features End------->
+    </section>
 
-  
+    <!-------Contact End------->
 
+    <!-------Download End------->
+    <section class="download section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="sectioner-header text-center white">
+              <h3>EAST END SOLUTION</h3>
+              <span class="line"></span>
+              <p class="white">
+                Welcome to a world of limitless possibilities with East End
+                Solutions.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="section-content text-center">
+              <ul>
+                <li>
+                  <a href="https://wa.me/255624177653"
+                    ><img
+                      src="images/whatsapp.png"
+                      class="wow fadeInUp"
+                      data-wow-delay="0.4s"
+                      style="width: 35px"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="images/email.png"
+                      class="wow fadeInUp"
+                      data-wow-delay="0.7s"
+                      style="width: 35px"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/ees_security/"
+                    ><img
+                      src="images/instagram.png"
+                      class="wow fadeInUp"
+                      data-wow-delay="1.0s"
+                      style="width: 35px"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-------Download End------->
 
-  <!-------Testimonial Start------->
-  <section class="testimonial section-padding" data-scroll-index='5'>
-   
-    <div class="container">
-      <div class="row justify-content-center gapsectionsecond">
-        <div class="col-lg-7 text-center">
-          <div class="sectioner-header text-center white">
-            <h3>SERVICE PRICES</h3>
-
-
-            <span class="line"></span>
-            <p class="white">We
-              understand that pricing transparency is essential for making informed decisions, and that's why we're
-              committed to providing you with a clear and comprehensive overview of our service pricing. <br><br><strong class="text-uppercase" id="text-uppercase">Installation Cost is 299,000/=</strong>
-
+    <footer class="footer-copy">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              2023 &copy; Eastend Solutions Limited. Website Designed by
+              <a href="https://eastendsolutions.co.tz" rel="dofollow"
+                >Eastend</a
+              >
             </p>
           </div>
         </div>
       </div>
-      <div class="row pt-5">
-        <div class="col-lg-4 pb-5 pb-lg-0">
-          <div class="wrap-price center-wrap">
-            <div class="price-innerdetail text-center">
-              <h5>BASIC</h5>
-              <p class="prices">99,000/=</p>
-              <div class="detail-pricing">
-                <span class="float-left"> <i class="bi bi-check2-circle"></i> Speed </span>
-                <span class="float-right">10mbps</span>
-              </div>
-              <div class="detail-pricing">
-                <span class="float-left"> <i class="bi bi-check2-circle"></i> Bundle</span>
-                <span class="float-right">Unlimited</span>
-              </div>
-              <div class="detail-pricing">
-                <span class="float-left"> <i class="bi bi-check2-circle"></i>No of Devices </span>
-                <span class="float-right">Unlimited</span>
-              </div>
-              <a  class="btn btn-secondary mt-5">Subscribe</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 pb-5 pb-lg-0">
-          <div class="wrap-price center-wrap">
-            <div class="price-innerdetail text-center">
-              <h5>STANDARD</h5>
-              <p class="prices">120,000/=</p>
-              <div class="detail-pricing">
-                <span class="float-left"> <i class="bi bi-check2-circle"></i> Speed </span>
-                <span class="float-right">15mbps</span>
-              </div>
-              <div class="detail-pricing">
-                <span class="float-left"> <i class="bi bi-check2-circle"></i> Bundle</span>
-                <span class="float-right">Unlimited</span>
-              </div>
-              <div class="detail-pricing">
-                <span class="float-left"> <i class="bi bi-check2-circle"></i>No of Devices </span>
-                <span class="float-right">Unlimited</span>
-              </div>
-              <a  class="btn btn-secondary mt-5">Subscribe</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 pb-5 pb-lg-0">
-          <div class="wrap-price center-wrap">
-            <div class="price-innerdetail text-center">
-              <h5>PREMIUM</h5>
-              <p class="prices">150,000/=</p>
-              <div class="detail-pricing">
-                <span class="float-left"> <i class="bi bi-check2-circle"></i> Speed </span>
-                <span class="float-right">20mbps</span>
-              </div>
-              <div class="detail-pricing">
-                <span class="float-left"> <i class="bi bi-check2-circle"></i> Bundle</span>
-                <span class="float-right">Unlimited</span>
-              </div>
-              <div class="detail-pricing">
-                <span class="float-left"> <i class="bi bi-check2-circle"></i>No of Devices </span>
-                <span class="float-right">Unlimited</span>
-              </div>
-              <a  class="btn btn-secondary mt-5">Subscribe</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-------Testimonial End------->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-------FAQ Start------->
-  <section class="faq section-padding prelative" data-scroll-index='6'>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="sectioner-header text-center">
-            <h3>Frequently Asked Questions</h3>
-            <span class="line"></span>
-            <p>We understand that you may have questions about our products and services, and we're here to provide you
-              with clear and informative answers</p>
-          </div>
-          <div class="section-content">
-            <div class="row">
-              <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
-                <h4>What equipment will I need for the internet installation, and is it provided by your company?</h4>
-                <p>The equipment required for your internet installation depends on the type of service you choose. In
-                  most cases, we provide antenna, routers and any necessary installation hardware i.e Wi-Fi equipment
-                  for in-home/office wireless connectivity.</p>
-              </div>
-              <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
-                <h4>How accurate is your vehicle tracking system, and how frequently is the data updated?</h4>
-                <p>Our vehicle tracking system is highly accurate and provides real-time data updates. It utilizes advanced GPS technology to track the location of your vehicle with precision. The data is typically
-                  updated at short intervals, such as every 30 seconds or less, ensuring you have the most up-to-date
-                  information available.</p>
-              </div>
-              <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
-                <h4>How long does it usually take from when I request internet service?</h4>
-                <p>The time it takes to set up your internet service can vary depending on several factors, including
-                  your location, the type of service you're requesting. The overall timeline can vary, but we strive to
-                  make the process as efficient as possible to get you connected to the internet quickly. </p>
-              </div>
-              <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
-                <h4>Is the vehicle tracking system compatible with all types of vehicles, including personal cars and
-                  commercial fleets?</h4>
-                <p>Yes, our vehicle tracking system is designed to be versatile and can be used with a wide range of
-                  vehicles, including personal cars, trucks, vans, and commercial fleets. It is scalable and can
-                  accommodate the tracking needs of both individuals and businesses.</p>
-              </div>
-              <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
-                <h4>What support options are available if I encounter technical issues with my internet service ?</h4>
-                <p>We offer multiple support channels, including phone support, live chat, and email. Additionally, you
-                  can find helpful troubleshooting resources in our "Support" or "FAQ" sections on the website.</p>
-              </div>
-              <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
-                <h4>How does your car tracking system work, and what are its benefits?</h4>
-                <p>Our car tracking system utilizes advanced technology to provide real-time location tracking and
-                  security features for your vehicle. Benefits include theft prevention, improved vehicle safety, and
-                  potential cost savings on insurance premiums.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- scrollIt js -->
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      wow = new WOW();
+      wow.init();
+      $(document).ready(function (e) {
+        $("#video-icon").on("click", function (e) {
+          e.preventDefault();
+          $(".video-popup").css("display", "flex");
+          $(".iframe-src").slideDown();
+        });
+        $(".video-popup").on("click", function (e) {
+          var $target = e.target.nodeName;
+          var video_src = $(this).find("iframe").attr("src");
+          if ($target != "IFRAME") {
+            $(".video-popup").fadeOut();
+            $(".iframe-src").slideUp();
+            $(".video-popup iframe").attr("src", " ");
+            $(".video-popup iframe").attr("src", video_src);
+          }
+        });
 
-  <!-------FAQ End------->
-
-  <!-------Contact Start------->
-  <section class="contact section-padding" data-scroll-index='7'>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="sectioner-header text-center">
-            <h3>Contact us</h3>
-            <span class="line"></span>
-            <p>Please explore the various ways to get in touch with us listed on this page. We look forward to hearing from you and assisting you in any way we can. Thank you for choosing East End Solutions Limited</p>
-          </div>
-          <div class="section-content">
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-8">
-                
-                
-                <form id="contact_form" action="send_email.php" method="POST">
-                  <div class="row">
-                    <div class="col">
-                      <input type="text" id="your_name" class="form-input w-100" name="name"
-                        placeholder="Full Name" required>
-                    </div>
-                    <div class="col">
-                      <input type="email" id="email" class="form-input w-100" name="email" placeholder="Email" required>
-                    </div>
-                  </div>
-                  <input type="text" id="subject" class="form-input w-100" name="subject" placeholder="Subject">
-                  <textarea class="form-input w-100" id="message" placeholder="Message" name="message"></textarea>
-                  <button class="btn-grad w-100 text-uppercase" type="submit" name="button">submit</button>
-                </form>
-
-
-
-              </div>
-              <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="contact-info white">
-                  <div class="contact-item media"><i class="fa fa-map-marker-alt media-left media-right-margin"></i>
-                    <div class="media-body">
-                      <p class="text-uppercase">Address</p>
-
-
-                      <p class="text-uppercase tex"><a class="text-white"
-                          href="https://maps.app.goo.gl/sLehRSbWYBkM9dNT7">Ikigai Complex, Goba</a></p>
-
-                    </div>
-                  </div>
-                  <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
-                    <div class="media-body">
-                      <p class="text-uppercase">Phone</p>
-                      <p class="text-uppercase"><a class="text-white" href="tel:+255624177653">+255 624 177 653</a> </p>
-                    </div>
-                  </div>
-                  <div class="contact-item media"> <i class="fa fa-envelope media-left media-right-margin"></i>
-                    <div class="media-body">
-                      <p class="text-uppercase">E-mail</p>
-                      <p class="text-lowercase"><a class="text-white"
-                          href="mailto:eularianluke.el@gmail.com">eularianluke.el@gmail.com</a> </p>
-                    </div>
-                  </div>
-                  <div class="contact-item media"> <i class="fa fa-clock media-left media-right-margin"></i>
-                    <div class="media-body">
-                      <p class="text-uppercase">Working Hours</p>
-                      <p class="text-uppercase">Mon-Sa 9.00 AM to 5.00PM.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-------Contact End------->
-
-  <!-------Download End------->
-  <section class="download section-padding">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-md-12">
-          <div class="sectioner-header text-center white">
-            <h3>EAST END</h3>
-            <span class="line"></span>
-            <p class="white">Welcome to a world of limitless possibilities with East End Solutions.</p>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="section-content text-center">
-            <ul>
-              <li><a href="https://wa.me/255624177653"><img src="images/whatsapp.png" class="wow fadeInUp"
-                    data-wow-delay="0.4s" style="width: 35px;" /></a></li>
-              <li><a href="#"><img src="images/email.png" class="wow fadeInUp" data-wow-delay="0.7s"
-                    style="width: 35px;" /></a></li>
-              <li><a href="https://www.instagram.com/ees_security/"><img src="images/instagram.png" class="wow fadeInUp"
-                    data-wow-delay="1.0s" style="width: 35px;" /></a></li>
-
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-------Download End------->
-
-  <footer class="footer-copy">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <p>2023 &copy; Eastend Solutions Limited. Website Designed by <a href="https://eastendsolutions.co.tz"
-              rel="dofollow">Eastend</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-
-  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-  <!-- scrollIt js -->
-  <script src="js/scrollIt.min.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script>
-    wow = new WOW();
-    wow.init();
-    $(document).ready(function (e) {
-
-      $('#video-icon').on('click', function (e) {
-        e.preventDefault();
-        $('.video-popup').css('display', 'flex');
-        $('.iframe-src').slideDown();
+        $(".slider").bxSlider({
+          pager: false,
+        });
       });
-      $('.video-popup').on('click', function (e) {
-        var $target = e.target.nodeName;
-        var video_src = $(this).find('iframe').attr('src');
-        if ($target != 'IFRAME') {
-          $('.video-popup').fadeOut();
-          $('.iframe-src').slideUp();
-          $('.video-popup iframe').attr('src', " ");
-          $('.video-popup iframe').attr('src', video_src);
+
+      $(window).on("scroll", function () {
+        var bodyScroll = $(window).scrollTop(),
+          navbar = $(".navbar");
+
+        if (bodyScroll > 50) {
+          $(".navbar-logo img").attr("src", "images/logo-black.jpg");
+          navbar.addClass("nav-scroll");
+          navbar.css("background-color", "black");
+        } else {
+          $(".navbar-logo img").attr("src", "images/Eastend.png");
+          navbar.removeClass("nav-scroll");
         }
       });
+      $(window).on("load", function () {
+        var bodyScroll = $(window).scrollTop(),
+          navbar = $(".navbar");
 
-      $('.slider').bxSlider({
-        pager: false
+        if (bodyScroll > 50) {
+          $(".navbar-logo img").attr("src", "images/logo-black.jpg");
+          navbar.addClass("nav-scroll");
+        } else {
+          $(".navbar-logo img").attr("src", "images/logo-white.png");
+          navbar.removeClass("nav-scroll");
+        }
+
+        $.scrollIt({
+          easing: "swing", // the easing function for animation
+          scrollTime: 900, // how long (in ms) the animation takes
+          activeClass: "active", // class given to the active nav element
+          onPageChange: null, // function(pageIndex) that is called when page is changed
+          topOffset: -63,
+        });
       });
-    });
-
-    $(window).on("scroll", function () {
-
-      var bodyScroll = $(window).scrollTop(),
-        navbar = $(".navbar");
-
-      if (bodyScroll > 50) {
-        $('.navbar-logo img').attr('src', 'images/logo-black.jpg');
-        navbar.addClass("nav-scroll");
-        navbar.css("background-color", "black");
-
-      } else {
-        $('.navbar-logo img').attr('src', 'images/Eastend.png');
-        navbar.removeClass("nav-scroll");
-      }
-
-    });
-    $(window).on("load", function () {
-      var bodyScroll = $(window).scrollTop(),
-        navbar = $(".navbar");
-
-      if (bodyScroll > 50) {
-        $('.navbar-logo img').attr('src', 'images/logo-black.jpg');
-        navbar.addClass("nav-scroll");
-      } else {
-        $('.navbar-logo img').attr('src', 'images/logo-white.png');
-        navbar.removeClass("nav-scroll");
-      }
-
-      $.scrollIt({
-
-        easing: 'swing',      // the easing function for animation
-        scrollTime: 900,       // how long (in ms) the animation takes
-        activeClass: 'active', // class given to the active nav element
-        onPageChange: null,    // function(pageIndex) that is called when page is changed
-        topOffset: -63
-      });
-    });
-
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>
